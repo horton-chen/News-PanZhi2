@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\pre-dexed\debug\classes-8671587a75ab6b6b89da7dc9df03b408a875f93f.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\pre-dexed\debug\classes-486efc0f3b7fbe4a1d7d9171a4bd8f02d726c4bd.jar" />
+    </item>
+    <item
+        jar="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\pre-dexed\debug\classes-3172065c7a3a1dbdb533225df4a173c99e244f45.jar" />
+    </item>
+    <item
+        jar="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\pre-dexed\debug\classes-f5c8b967390857fe043cdab5488c193a48fc6b8d.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\pre-dexed\debug\classes-602b303dfd8e14b723987fb0ab27d7e7679c7640.jar" />
+    </item>
+    <item
+        jar="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-a6fb53beff6c2d7562984964e899e8255e1c3344.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\pre-dexed\debug\classes-5b9c803893314aeec129359bbfd201a50b5fa2e3.jar" />
+    </item>
+    <item
+        jar="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\pre-dexed\debug\classes-1a16ee38ceb462b18b854a560c13a3df34536bf1.jar" />
+    </item>
+    <item
+        jar="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="F:\1 Study\2 Electron\Android\MyApplication\News-PanZhi\Application\build\intermediates\pre-dexed\debug\classes-20907cefecd8d0045151dc55364a4b509f2782aa.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-dfd0dfdaa85f55a8e82d8ba82fcaf6928c32cdba.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="D:\Program Files\Android\sdk\samples\android-22\ui\ActionBarCompat-Styled\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-749cda498b7df41a783df88498430ed7daf2d9a7.jar" />
+    </item>
+
+</items>
