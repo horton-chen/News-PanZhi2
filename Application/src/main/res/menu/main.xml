@@ -29,22 +29,36 @@
        Here we create all of the items to be displayed in the menu, setting support:showAsAction to
        define how the item should be displayed on the compatible Action Bar.
     -->
-    <item
-        android:id="@+id/menu_refresh"
-        android:icon="@drawable/ic_action_refresh"
-        android:title="@string/menu_refresh"
-        support:showAsAction="ifRoom"/>
+
 
     <item
-        android:id="@+id/menu_location"
-        android:icon="@drawable/ic_action_location"
-        android:title="@string/menu_location"
+        android:id="@+id/menu_news"
+        android:icon="@drawable/ic_view_headline_grey600_48dp"
+        android:title="新闻"
         support:showAsAction="always"/>
 
     <item
-        android:id="@+id/menu_settings"
-        android:icon="@drawable/ic_action_settings"
-        android:title="@string/menu_settings"
-        support:showAsAction="never"/>
+        android:id="@+id/menu_read"
+        android:icon="@drawable/ic_bookmark_grey600_48dp"
+        android:title="阅读"
+        support:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_discovery"
+        android:icon="@drawable/ic_explore_grey600_48dp"
+        android:title="发现"
+        support:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_me"
+        android:icon="@drawable/ic_perm_identity_grey600_48dp"
+        android:title="我"
+        support:showAsAction="always"/>
+
+    <!--<item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_grey600_48dp"
+        android:title="主页"
+        support:showAsAction="always"/>-->
 
 </menu>
