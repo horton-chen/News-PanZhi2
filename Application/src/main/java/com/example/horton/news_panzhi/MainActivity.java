@@ -26,6 +26,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -69,7 +70,27 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         return super.onCreateOptionsMenu(menu);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.menu_news:
+                Toast.makeText(this, "This is menu_news", Toast.LENGTH_SHORT).show();
+                return true;
 
+            case R.id.menu_read:
+                Toast.makeText(this, "This is menu_read", Toast.LENGTH_SHORT).show();
+                return true;
+
+            case R.id.menu_discovery:
+                Toast.makeText(this, "This is menu_discovery", Toast.LENGTH_SHORT).show();
+                return true;
+
+            case R.id.menu_me:
+                Toast.makeText(this, "This is menu_me", Toast.LENGTH_SHORT).show();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
@@ -139,5 +160,15 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
         actionBar.setTitle(mTitle);
+    }
+
+
+    /**
+     * 获得抽屉对象
+     */
+    public NavigationDrawerFragment getNavigationDrawerFragment(){
+        mNavigationDrawerFragment = (NavigationDrawerFragment)
+                getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
+        return mNavigationDrawerFragment;
     }
 }
