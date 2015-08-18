@@ -24,6 +24,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -44,9 +45,12 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
      */
     private CharSequence mTitle;
 
+    private static String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.i(TAG, "This is onCreate");
         setContentView(R.layout.sample_main);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
@@ -61,6 +65,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        Log.i(TAG, "This is onCreateOptionsMenu");
         // Inflate menu from menu resource (res/menu/main)
         getMenuInflater().inflate(R.menu.main, menu);
         if (!mNavigationDrawerFragment.isDrawerOpen()) {
@@ -72,6 +77,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.i(TAG, "This is onOptionsItemSelected");
         switch (item.getItemId()){
             case R.id.menu_news:
                 Toast.makeText(this, "This is menu_news", Toast.LENGTH_SHORT).show();
@@ -94,6 +100,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
+        Log.i(TAG, "This is onNavigationDrawerItemSelected");
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
@@ -111,11 +118,13 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
 
+
         /**
          * Returns a new instance of this fragment for the given section
          * number.
          */
         public static PlaceholderFragment newInstance(int sectionNumber) {
+            Log.i(TAG, "This is PlaceholderFragment newInstance");
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
@@ -129,12 +138,14 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
+            Log.i(TAG, "This is PlaceholderFragment onCreateView");
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
         }
 
         @Override
         public void onAttach(Activity activity) {
+            Log.i(TAG, "This is PlaceholderFragment onAttach");
             super.onAttach(activity);
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
@@ -142,6 +153,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     }
 
     public void onSectionAttached(int number) {
+        Log.i(TAG, "This is PlaceholderFragment onSectionAttached");
         switch (number) {
             case 1:
                 mTitle = getString(R.string.title_section1);
@@ -156,6 +168,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     }
 
     public void restoreActionBar() {
+        Log.i(TAG, "This is PlaceholderFragment restoreActionBar");
         ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
