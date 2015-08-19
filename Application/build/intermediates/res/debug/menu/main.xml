@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!--
+  As we're using ActionBarCompat, any action item attributes come from ActionBarCompat's XML
+  namespace instead of the android namespace. Here we've added a new support namespace added to
+  the menu element allowing us to use the 'showAsAction' attribute in a backwards compatible way.
+  Any other action item attributes used should be referenced from this namespace too
+  (actionProviderClass, actionViewClass, actionLayout).
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto" >
+
+    <!--
+       Here we create all of the items to be displayed in the menu, setting support:showAsAction to
+       define how the item should be displayed on the compatible Action Bar.
+    -->
+
+
+    <item
+        android:id="@+id/menu_news"
+        android:icon="@drawable/ic_view_headline_grey600_48dp"
+        android:title="新闻"
+        support:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_read"
+        android:icon="@drawable/ic_bookmark_grey600_48dp"
+        android:title="阅读"
+        support:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_discovery"
+        android:icon="@drawable/ic_explore_grey600_48dp"
+        android:title="发现"
+        support:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_me"
+        android:icon="@drawable/ic_perm_identity_grey600_48dp"
+        android:title="我"
+        support:showAsAction="always"/>
+
+    <!--<item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_grey600_48dp"
+        android:title="主页"
+        support:showAsAction="always"/>-->
+
+</menu><!-- From: file:/E:/1%20Study/2%20Electron/Android/MyApplication/News-PanZhi/Application/src/main/res/menu/main.xml -->

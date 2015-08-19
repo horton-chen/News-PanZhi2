@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/News-PanZhi.iml" filepath="$PROJECT_DIR$/News-PanZhi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xUtils-master/library/library.iml" filepath="$PROJECT_DIR$/xUtils-master/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xUtils-master/xUtils-master.iml" filepath="$PROJECT_DIR$/xUtils-master/xUtils-master.iml" />
     </modules>
   </component>
 </project>
